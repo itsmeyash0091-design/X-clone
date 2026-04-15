@@ -1,11 +1,10 @@
-/* Container */
 .post-container {
   display: flex;
   justify-content: center;
   background-color: #000;
 }
 
-/* Box */
+
 .post-box {
   display: flex;
   gap: 10px;
@@ -14,7 +13,6 @@
   border-bottom: 1px solid #2f3336;
 }
 
-/* Profile Circle (smaller) */
 .profile-circle {
   width: 38px;
   height: 38px;
@@ -22,14 +20,13 @@
   border-radius: 50%;
 }
 
-/* Form */
+
 .post-form {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-/* Textarea (compact like X) */
 .post-content {
   background: transparent;
   border: none;
@@ -41,7 +38,6 @@
   line-height: 1.4;
 }
 
-/* Button (small pill style) */
 .post-btn {
   align-self: flex-end;
   margin-top: 6px;
@@ -55,7 +51,7 @@
   cursor: pointer;
 }
 
-/* Hover */
+
 .post-btn:hover {
   background-color: #1a8cd8;
 }

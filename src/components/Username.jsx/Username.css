@@ -1,0 +1,42 @@
+.username-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.username-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username-avatar-placeholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.username-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.username-display {
+  color: #e7e9ea;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.username-display:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.username-handle {
+  color: #71767b;
+  font-size: 15px;
+}
